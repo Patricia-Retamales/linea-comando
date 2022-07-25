@@ -1,0 +1,94 @@
+ 1° Entrar en el thecmdchallenge/directorio
+cd - para posicionar me en la carpeta 
+
+ 2° Imprimir la ruta del directorio actual
+   pwd
+   
+ 3° Enumere todos los archivos del directorio actual, incluidos los ocultos
+ ls -la
+ 
+ 4°Ahora enumere todos los archivos dentro del proyecto, recursivamente (todos los archivos en la jerarquía).
+  ls -R
+  
+  5° Borrar todo el desorden desde la línea de comando
+    clear
+    
+  6°  Vaya al último nivel debajo de la carpeta de nombre pequeño y muestre en la consola el contenido del trophy.txtarchivo.
+     lo que hice fue poner cd nombre de la carpeta ...pero el archivo estaba guardado en 3 carpetas que estaban en la 
+     carpeta small-name asi que las abri todas para poder llegar al archivo....al llegar al archivo use el comando cat mas el 
+     nombre del archivo .
+     
+  7° Suba un nivel y acceda al directorio funcode y enumere todos los archivos con la extensión típica de javascript.
+    me salgo de las carpetas usando el comando cd .. hasta llegar a la carpeta thecmdchallenge .....llegando uso el comando cd funcode/
+    estando en la carpeta uso el comando ls *.js .
+    
+  8° Cree un nuevo directorio dentro funcode/the-most-funny/llamado “not-that-funny“.
+     cd the-most-funny/ ( busco la carpeta para hacer la nueva carpeta) .... despues uso el comando mkdir mas el nombre de la carpeta para 
+     poder crear la carpeta the-most-funny.
+     
+  9° Cree una copia de the-mostboring-text.txt (puede encontrarlo dentro de los elementos secundarios de /boringfolder/) y asígnele el nombre lol.txt .
+      me posiciono en la carpeta boringfolder/..... busco la carpeta de donde esta el archivo las abro con el comando cd y luego copio con el 
+      comando cp the-mostboring-text.txt lol.txt asi queda copiada y con su nuevo nombre .
+      
+  10° Muévete funcode/kids.jpg adentrofuncode/images/hello/   
+       me posiiono en la carpeta funcode una ves adentro uso el comando mv kids.jpg mas  images/hello/ y asi muevo la imagen a la carpeta requerida.
+       
+   11° Elimine el directorio " nombre pequeño ".  
+      rm -R small-name/ asi se elimina una carpeta del directorio .
+      
+   12° Imprime en la línea de comando el contenido de the-ultimate-joke.txt.   
+      busco la carpeta donde se encuenta el archivo  the-ultimate-joke.txty uso el comnado cd the-most-funny/lol/ despues uso el comando cat the-ultimate-joke.tx
+      
+  13° Elimina todo el contenido de la carpeta boringfolder, , son extremadamente aburridos... 
+    para eliminar la carpeta uso e comando rm -R boringfolder/
+    
+  14° Abra el archivo kamehameha/dragon-ball-jokes.md usando el editor de texto de línea de comando VI
+  
+      para poder abrir el archivo se usa el comando vi kamehameha/dragon-ball-jokes.md 
+      
+   15° Actualice el archivo kamehameha/ dragon-ball-jokes.md eliminando el primer chiste que lea en el archivo, finalmente guarde y cierre el editor de texto.
+       se usa el comando dd para Eliminar la línea que contiene al cursor mas y para guardar y salir del edior de texto se usa los comanodos :wq.
+       
+       
+       
+       
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
